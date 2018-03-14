@@ -5,14 +5,14 @@
 
 - $ npm install -g cordova 
 
-### Create a project
+## Create a project
 - Create a blank Cordova project using the command-line tool. Navigate to the directory where you wish to create your project and type cordova create <path>.
 
 - For a complete set of options, type cordova help create.
 
 - $ cordova create MyApp
 
-#### Add a platform
+## Add a platform
 - After creating a Cordova project, navigate to the project directory. From the project directory, you need to add a platform for which you want to build your app.
 
 - To add a platform, type cordova platform add <platform name>.
@@ -23,7 +23,27 @@
 
 - $ cordova platform add browser
 
-##### Run your app
+## Run your app
 - From the command line, run cordova run <platform name>.
 
 - $ cordova run browser
+
+### Android Development / Build
+
+- Download and install Java JDK Latest version http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html
+
+- Download and install  Android Studio https://developer.android.com/studio/index.html
+
+- Download ( Ant 1.9.3 or Ant 1.9.4)  https://www.apache.org/dist/ant/binaries/ 
+
+### Variables Environnement (Windows Only)
+
+- Add the variables to the environnement
+
+-  Go to Control Panel > Advance Settings and click on Variables Environnement
+
+-  Click on the New Button
+
+- Add Variable Name: (ANT_HOME) and Variable Value: (C:\apache-ant-1.9.4) 
+
+- Add Variable Name: (JAVA_HOME) and Variable Value: (C:\Program Files\Java\jdk1.8.0_162) 

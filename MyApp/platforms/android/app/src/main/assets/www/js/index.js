@@ -32,15 +32,42 @@ var app = {
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+       // var menuClick = document.getElementById('main-hamburger');
+       // var parentElement = document.getElementById(id);
+       // var listeningElement = parentElement.querySelector('.listening');
+       // var receivedElement = parentElement.querySelector('.received');
 
-        console.log('Received Event: ' + id);
+       // listeningElement.setAttribute('style', 'display:none;');
+        //receivedElement.setAttribute('style', 'display:block;');
+
+        //console.log('Received Event: ' + id);
+
+        // function menu(){alert('1');}
+
+
+        // menuClick.addEventListener("click", menu);
+
+
     }
+
+
+
+    
 };
 
 app.initialize();
+
+
+
+jQuery(function(){ // JQuery function call to run code
+
+    var menuCick = $('.main-hamburger');
+    var menu_list = $('.menu-list');
+
+    menuCick.click(function() {
+        menu_list.toggleClass('menu-active');    
+    });
+
+
+});(jQuery); 

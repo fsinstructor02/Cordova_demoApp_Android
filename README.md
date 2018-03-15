@@ -87,3 +87,12 @@
 #### SDKs for mobile platforms often come bundled with emulators that execute a device image, so that you can launch the app from the home screen and see how it interacts with many platform features. Run a command such as the following to rebuild the app and view it within a specific platform's emulator:
 
 - $ cordova emulate android
+
+
+#### Cordova Jquery Global
+
+- $ npm install -g cordova-jquery
+
+#### In your directory run: 
+
+- $ cordova-jquery

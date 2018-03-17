@@ -115,6 +115,16 @@ h1 {
 }
 
 
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    font-size: 24px;
+    border: 0.5px solid #ccc;
+}
 
 
 .main-container {
@@ -127,41 +137,61 @@ h1 {
     overflow: hidden;
 }
 
-.main-nav {
+
+.main-nav,
+.footer {
     position: absolute;
-    top: 0px;
-    left: 0px;
     width: 100%;
-    height: 75px;
+    height: 40px;
+    left: 0px;
     background-color: #fff;
+    z-index: 9999;
+}
+
+.main-nav { 
+    top: 0px;
     border-bottom: 1px solid #ccc;
-    z-index: 9;
+}
+
+
+.footer {
+    bottom: 0px;
+    border-top: 1px solid #ccc;
+    padding: 0 20%;
+}
+
+
+a.ui-link {
+    color: #000 !important;
 }
 
 .main-hamburger {
     position: absolute;
     top: 10px;
     right: 10px;
-    border: 0.5px solid #ccc;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    color: #ccc;
 }
 
 .menu-list {
     width: 50%;
     height: 100%;
     position: absolute;
-    background-color: rgb(87, 87, 87);
-    top: 75px;
+    background-color:#ddd;
+    top: 41px;
     right: -100%;
     transition: right ease-in-out 1s;
     z-index: 99;
+    border-left: 1px solid #ccc;
 }
 
 .menu-active {
     right: 0%;
-}
+}c
 
 .slide-0,
 .slide-1,
@@ -169,12 +199,52 @@ h1 {
  width: 100%;
  height: 100%;
  position: absolute;
- background-color: #ccc;
- top: 75px;
+ top: 41px;
  right: -100%;
  transition: right ease-in-out 1s;
+ border: 0.5px solid #ccc;
 }
+
+.slide-0 { background-color:red;}
+.slide-1 { background-color: blue;}
+.slide-2 { background-color: aqua;}
+
 
 .slide-active {
     right: 0%;
+}
+
+
+.slide-active-over {
+    right: 100%;
+}
+
+
+.slide-0-btn,
+.slide-1-btn,
+.slide-2-btn {
+    position: relative;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #fff;
+    border: 0.5px solid #ccc;
+    color: #ccc;
+}
+
+
+.btn-active {
+    background-color:#ccc;
+    color: #000;
+}
+
+.contact {
+    position: relative;
+    height: 35px;
+    width: 35px;
+    overflow: hidden;
+    margin: 5px;
+    text-align: center;
+    padding:5px;
+    font-size: 24px;
+    cursor: pointer;
 }

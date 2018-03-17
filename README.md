@@ -96,3 +96,8 @@
 #### In your directory run: 
 
 - $ cordova-jquery
+
+#### Add a  Plugin
+
+- $ cordova plugin add Plugin-name
+- Ex: cordova plugin add cordova-plugin-inappbrowser 

@@ -18,12 +18,6 @@
     },
     "cordova-plugin-file": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "cordova-plugin-googlemaps": {
-      "API_KEY_FOR_ANDROID": " AIzaSyBRcwqQdp5x53XyNLBOBig2NmM7l3gbxLI",
-      "PLAY_SERVICES_VERSION": "12.0.0",
-      "ANDROID_SUPPORT_V4_VERSION": "24.1.0",
-      "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
   "dependent_plugins": {

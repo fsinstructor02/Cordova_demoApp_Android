@@ -32,12 +32,12 @@
         "source": "C:\\Users\\FSInstructor02\\Desktop\\CodeSamples\\Cordova_demoApp_Android\\MyApp\\platforms\\android\\app\\src\\main\\res\\xml\\sharing_paths.xml"
     },
     {
-        "merged": "C:\\Users\\FSInstructor02\\Desktop\\CodeSamples\\Cordova_demoApp_Android\\MyApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
-        "source": "C:\\Users\\FSInstructor02\\Desktop\\CodeSamples\\Cordova_demoApp_Android\\MyApp\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
-    },
-    {
         "merged": "C:\\Users\\FSInstructor02\\Desktop\\CodeSamples\\Cordova_demoApp_Android\\MyApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
         "source": "C:\\Users\\FSInstructor02\\Desktop\\CodeSamples\\Cordova_demoApp_Android\\MyApp\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\FSInstructor02\\Desktop\\CodeSamples\\Cordova_demoApp_Android\\MyApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\FSInstructor02\\Desktop\\CodeSamples\\Cordova_demoApp_Android\\MyApp\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
     },
     {
         "merged": "C:\\Users\\FSInstructor02\\Desktop\\CodeSamples\\Cordova_demoApp_Android\\MyApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",

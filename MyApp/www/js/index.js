@@ -116,6 +116,12 @@ jQuery(function(){ // JQuery function call to run code
         cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
     });
 
+
+    // for (i = 0; i < cars.length; i++) { 
+    //     text += cars[i] + "<br>";
+    // }
+
+
     shareClick.click(function() {
      window.plugins.socialsharing.share('Here is your PDF file', 'Your PDF', 'www/files/manual.pdf');  
     });

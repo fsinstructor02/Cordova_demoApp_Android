@@ -135,3 +135,6 @@ node_modules/wordwrap/
 node_modules/yargs/
 node_modules/jasmine-core/
 node_modules/fs.realpath/
+
+ *MyApp/platforms/browser/www/css/index.css
+

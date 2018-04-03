@@ -1,4 +1,4 @@
-# Cordova_demoApp_Android
+# Cordova_Setup
 
 ## Installing Cordova
 - Cordova command-line runs on Node.js and is available on NPM. Follow platform specific guides to install additional platform dependencies. Open a command prompt or Terminal, and type npm install -g cordova.
@@ -47,6 +47,8 @@
 - Add Variable Name: (ANT_HOME) and Variable Value: (C:\apache-ant-1.9.4) 
 
 - Add Variable Name: (JAVA_HOME) and Variable Value: (C:\Program Files\Java\jdk1.8.0_162) 
+
+- Also if needed if platform is broken add in your path (C:\Windows\System32)
 
 #### Build The App
 
@@ -101,3 +103,23 @@
 
 - $ cordova plugin add Plugin-name
 - Ex: cordova plugin add cordova-plugin-inappbrowser 
+
+ 
+ 
+#### Extra setup if needed
+ 
+-  $ cordova create myApp com.myCompany.myApp myApp
+-  $ cd myApp
+-  $ cordova plugin add cordova-plugin-camera --save
+-  $ cordova platform add android --save
+-  $ cordova requirements android    
+-  $ cordova build android --verbose
+-  $ cordova run android
+  
+  
+#### FireBase Setup
+  
+- http://mariusbancila.ro/blog/2017/07/21/using-google-firebase-in-cordova-apps/
+- $ cordova plugin add cordova-plugin-firebase 
+- Follow the steps on (https://support.google.com/firebase/answer/7015592)
+    
